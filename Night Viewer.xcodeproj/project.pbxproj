@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E9260CA200DF9AD00C785BB /* DenstinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9260C9200DF9AD00C785BB /* DenstinationView.swift */; };
 		9EDFB96C2004D13300B39499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDFB96B2004D13300B39499 /* AppDelegate.swift */; };
 		9EDFB96E2004D13300B39499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDFB96D2004D13300B39499 /* ViewController.swift */; };
 		9EDFB9702004D13300B39499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDFB96F2004D13300B39499 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E9260C9200DF9AD00C785BB /* DenstinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenstinationView.swift; sourceTree = "<group>"; };
 		9EDFB9682004D13300B39499 /* Night Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Night Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDFB96B2004D13300B39499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EDFB96D2004D13300B39499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +36,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E9260C6200DF8CE00C785BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9EDFB96D2004D13300B39499 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E9260C8200DF8F600C785BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EDFB96B2004D13300B39499 /* AppDelegate.swift */,
+				9EDFB96F2004D13300B39499 /* Assets.xcassets */,
+				9EDFB9712004D13300B39499 /* Main.storyboard */,
+				9EDFB9742004D13300B39499 /* Info.plist */,
+				9EDFB9752004D13300B39499 /* Night_Viewer.entitlements */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		9E9260CB200DF9B500C785BB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9E9260C9200DF9AD00C785BB /* DenstinationView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		9EDFB95F2004D13300B39499 = {
 			isa = PBXGroup;
 			children = (
@@ -53,12 +83,9 @@
 		9EDFB96A2004D13300B39499 /* Night Viewer */ = {
 			isa = PBXGroup;
 			children = (
-				9EDFB96B2004D13300B39499 /* AppDelegate.swift */,
-				9EDFB96D2004D13300B39499 /* ViewController.swift */,
-				9EDFB96F2004D13300B39499 /* Assets.xcassets */,
-				9EDFB9712004D13300B39499 /* Main.storyboard */,
-				9EDFB9742004D13300B39499 /* Info.plist */,
-				9EDFB9752004D13300B39499 /* Night_Viewer.entitlements */,
+				9E9260CB200DF9B500C785BB /* UI */,
+				9E9260C8200DF8F600C785BB /* Support Files */,
+				9E9260C6200DF8CE00C785BB /* View */,
 			);
 			path = "Night Viewer";
 			sourceTree = "<group>";
@@ -136,6 +163,7 @@
 			files = (
 				9EDFB96E2004D13300B39499 /* ViewController.swift in Sources */,
 				9EDFB96C2004D13300B39499 /* AppDelegate.swift in Sources */,
+				9E9260CA200DF9AD00C785BB /* DenstinationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
